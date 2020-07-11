@@ -1,0 +1,60 @@
+body {
+    background: rgb(117, 188, 255);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: min(6vw, 15vh) min(6vw, 15vh) min(6vw, 15vh) min(6vw, 15vh);
+    grid-template-columns: min(6vw, 15vh) min(6vw, 15vh) min(6vw, 15vh) min(6vw, 15vh) min(6vw, 15vh) min(6vw, 15vh) min(6vw, 15vh) min(6vw, 15vh) min(6vw, 15vh) min(6vw, 15vh) min(6vw, 15vh) min(6vw, 15vh) min(6vw, 15vh);
+    grid-gap: 8px;
+    background-color: rgb(117, 188, 255);
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card.R{
+    background-color: rgb(216, 216, 216);
+    color: red;
+    border-radius: 5px;
+    font-size: min(4vw, 9vh);
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.B{
+    background-color: rgb(216, 216, 216);
+    color: black;
+    border-radius: 5px;
+    font-size: min(4vw, 9vh);
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#read {
+    margin: 15px;
+    padding: 10px;
+    font-size: large;
+}
+
+#choice {
+    margin: 0px;
+    font-size: 0px;
+    color: gold;
+}
+
+.reset {
+    display: flex;
+    position: absolute;
+    float: right;
+}
